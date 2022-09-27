@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+    <title>Netflix</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <h2 class="logotipo">NETFLIX</h2>
+            <nav>
+                <a href="#" class="activo">Inicio</a>
+                <a href="#">Programas</a>
+                <a href="#">Peliculas</a>
+                <a href="#">Mas recientes</a>
+                <a href="#">Mi lista</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div class="pelicula-principal">
+            <div class="contenedor">
+                <h3 class="titulo">Arcane</h3>
+                <p class="descripcion">
+                    Arcane es una serie de animación basada en el exitoso videojuego League of Legends o también conocido popularmente como Lol. La historia se centra en la desigualdad de los territorios.
+                </p>
+                <button role="button" class="boton" ><i class="fa-solid fa-play"></i>Reproducir</button>
+                <button role="button" class="boton" ><i class="fa-solid fa-circle-info"></i>Mas Informacion</button>
+            </div>
+        </div>
+
+        <div class="peliculas-recomendadas contenedor">
+            <div class="contenedor-titulo-controles">
+                <h3>Peliculas Recomendadas</h3>
+                <div class="indicadores">
+                </div>
+            </div>
+
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fa-solid fa-angle-left"></i></button>
+
+                <div class="contenedor-carousel">
+                    <div class="carousel">
+                        <div class="pelicula">
+                            <a href="#"><img src="img/abominables.jpg" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="img/detective-pikachu.jpg" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="img/gods-of-war.jpg" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="img/Kimetsu no Yaiba.jpg" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="img/myers.jpg" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="img/rick-and-morty.jpg" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="img/star-wars.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="https://kit.fontawesome.com/15ef3a6f3c.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
