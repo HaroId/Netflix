@@ -195,6 +195,7 @@ header nav a.activo {
 .peliculas-recomendadas .contenedor-carousel .carousel .pelicula.hover{
     transform: scale(1.2);
     transform-origin: center;
+    cursor: pointer;
 }
 
 .peliculas-recomendadas .contenedor-carousel .carousel .pelicula img{
