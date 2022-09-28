@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/Favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
@@ -13,7 +14,7 @@
 <body>
     <header>
         <div class="contenedor">
-            <h2 class="logotipo">NETFLIX</h2>
+            <h2 class="logotipo" id="logotipo"><img src="img/NETFLIX_Icon.png" alt=""></h2>
             <nav>
                 <a href="#" class="activo">Inicio</a>
                 <a href="#">Programas</a>
@@ -23,12 +24,12 @@
             </nav>
         </div>
     </header>
-    
+
     <main>
-        <div class="pelicula-principal">
+        <div class="pelicula-principal" id="main-principal">
             <div class="contenedor">
-                <h3 class="titulo">Arcane</h3>
-                <p class="descripcion">
+                <h3 class="titulo" id="titulo-principal">Arcane</h3>
+                <p class="descripcion" id="descripcion">
                     Arcane es una serie de animación basada en el exitoso videojuego League of Legends o también conocido popularmente como Lol. La historia se centra en la desigualdad de los territorios.
                 </p>
                 <button role="button" class="boton" ><i class="fa-solid fa-play"></i>Reproducir</button>
@@ -59,7 +60,46 @@
         </div>
     </main>
 
-    <footer></footer>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="caja-footer">
+                <div class="logo">
+                    <img src="img/Favicon.ico" alt="">
+                </div>
+                <div class="terminos">
+                    <p>Recreación de Netflix usando HTML, CSS, JS para poner en practica: el diseño web, maquetacion, asignacion de estilos, logica orientada a objetos y personalizacion de diseño.</p>
+                </div>
+            </div>
+            <div class="caja-footer">
+                <h2>Soluciones</h2>
+                    <a target="_blank" href="https://fast.com/">Test de velocidad</a>
+                    <a href="#">Preguntas frecuentes</a>
+                    <a href="#">App Desarrollo</a>
+                    <a href="#">App Marjeting</a>
+            </div>
+            <br>
+            <div class="caja-footer">
+                <h2>Empresa</h2>
+                    <a href="#">Acerca de</a>
+                    <a href="#">Trabajos</a>
+                    <a href="#">Procesos</a>
+                    <a href="#">Servicios</a>
+            </div>
+            <br>
+            <div class="caja-footer">
+                <h2>Redes</h2>
+                    <a target="_blank" href="https://github.com/HaroId"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a target="_blank" href="https://www.linkedin.com/in/jefeharold/"><i class="fa-brands fa-linkedin-in"></i> Linkedin</a>
+                    <a href="mailto:jefeharold@gmail.com"><i class="fa-solid fa-envelope"></i> Correo</a>
+            </div>
+        </div>
+
+        <div class="caja-copyright">
+            <hr>
+            <p>Todos los derechos reservados 2022 ©<b>Harold</b></p>
+            
+        </div>
+    </footer>
 
     <script src="https://kit.fontawesome.com/15ef3a6f3c.js" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
